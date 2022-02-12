@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-crazy-thursday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Meme Plugin for KFC Crazy Thursday",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -8,8 +8,7 @@
     "node": ">=14.6.0"
   },
   "files": [
-    "lib",
-    "corpus.json"
+    "lib"
   ],
   "license": "MIT",
   "author": "Shigma <shigma10826@gmail.com>",
@@ -31,10 +30,6 @@
     "crazy-thursday"
   ],
   "peerDependencies": {
-    "koishi": "^4.1.1"
-  },
-  "devDependencies": {
-    "@koishijs/plugin-database-memory": "^1.0.0",
-    "@koishijs/plugin-mock": "^1.0.1"
+    "koishi": "^4.2.0"
   }
 }
