@@ -1,6 +1,6 @@
 import { Context, Random, Schema } from 'koishi'
 
-const corpus: string[] = require('./corpus')
+const corpus: string[] = require('../corpus')
 
 export interface Config {}
 
